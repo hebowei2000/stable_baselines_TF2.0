@@ -1,3 +1,6 @@
+"""
+Edition update for adaption to TF2.0 by Bowei He@CityU
+"""
 from functools import reduce
 import os
 import time

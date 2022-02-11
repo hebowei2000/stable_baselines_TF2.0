@@ -2,6 +2,10 @@
 Reference: https://github.com/openai/imitation
 I follow the architecture from the official repository
 """
+"""
+Edition update for adaption to TF2.0 by Bowei He@CityU
+"""
+
 import gym
 import tensorflow as tf
 import tf_slim

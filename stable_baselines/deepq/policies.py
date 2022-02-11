@@ -1,3 +1,6 @@
+"""
+Edition update for adaption to TF2.0 by Bowei He@CityU
+"""
 import tensorflow as tf
 import tf_slim
 #import tensorflow.contrib.layers as tf_layers

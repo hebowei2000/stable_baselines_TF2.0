@@ -1,3 +1,6 @@
+"""
+Edition update for adaption to TF2.0 by Bowei He@CityU
+"""
 import numpy as np
 import tensorflow as tf
 

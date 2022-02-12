@@ -1,9 +1,14 @@
+"""
+Update for adaption to TF2.0 by Bowei He@CityU
+"""
 import warnings
 from itertools import zip_longest
 from abc import ABC, abstractmethod
 
 import numpy as np
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 from gym.spaces import Discrete
 
 from stable_baselines.common.tf_util import batch_to_seq, seq_to_batch
